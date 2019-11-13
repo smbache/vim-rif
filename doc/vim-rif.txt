@@ -1,0 +1,3 @@
+*vim-rip*	Plugin for easy relatively importing files.
+
+
