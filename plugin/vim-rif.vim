@@ -46,7 +46,6 @@ function! s:RifWithFzf()
 endfunction
 
 if mapcheck('<Plug>(RIF)') == ''
-  echom 'setting plug'
   inoremap <silent><unique> <Plug>(RIF) <ESC>:call <SID>RifWithFzf()<CR>
 endif
 
